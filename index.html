@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>LuchySweetRain 的个人主页</title>
+  <style>
+    :root {
+      color-scheme: light dark;
+    }
+
+    body {
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      line-height: 1.6;
+      display: grid;
+      place-items: center;
+      min-height: 100vh;
+      background: linear-gradient(120deg, #eef2ff, #f0f9ff);
+      color: #0f172a;
+    }
+
+    main {
+      width: min(680px, calc(100% - 2rem));
+      background: rgba(255, 255, 255, 0.9);
+      border-radius: 14px;
+      padding: 2rem;
+      box-shadow: 0 10px 30px rgba(15, 23, 42, 0.08);
+    }
+
+    h1 {
+      margin-top: 0;
+      font-size: clamp(1.8rem, 4vw, 2.4rem);
+    }
+
+    .links {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.75rem;
+      padding: 0;
+      margin: 1rem 0 0;
+      list-style: none;
+    }
+
+    .links a {
+      text-decoration: none;
+      padding: 0.55rem 0.85rem;
+      border-radius: 999px;
+      border: 1px solid #cbd5e1;
+      color: inherit;
+      background: #fff;
+    }
+
+    .links a:hover {
+      border-color: #6366f1;
+      color: #4338ca;
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>你好，我是 LuchySweetRain 👋</h1>
+    <p>欢迎来到我的个人主页。这里会记录我的项目、学习笔记和一些日常分享。</p>
+    <p>目前网站刚刚搭建完成，后续会持续更新内容。</p>
+    <ul class="links">
+      <li><a href="https://github.com/LuchySweetRain" target="_blank" rel="noreferrer">GitHub</a></li>
+      <li><a href="mailto:hello@example.com">联系我</a></li>
+    </ul>
+  </main>
+</body>
+</html>
