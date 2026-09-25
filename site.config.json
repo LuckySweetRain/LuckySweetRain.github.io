@@ -1,0 +1,22 @@
+{
+  "name": "Tianyu Zhang",
+  "brand": "LuckySweetRain",
+  "symbol": "R",
+  "language": "en",
+  "title": "Tianyu Zhang · Control, Learning & Agency",
+  "description": "Tianyu Zhang’s research, papers, and notes on control, reinforcement learning, and multimodal agents.",
+  "footer": "Research and everyday notes.",
+  "githubUrl": "https://github.com/LuckySweetRain",
+  "navigation": [
+    { "label": "Research", "href": "index.html#research" },
+    { "label": "Publications", "href": "index.html#publications" },
+    { "label": "About", "href": "index.html#journey" },
+    { "label": "Blog", "href": "blog/" }
+  ],
+  "defaultCategory": "daily",
+  "categories": {
+    "research": { "title": "Research Notes", "description": "Paper notes, ideas, and open questions." },
+    "engineering": { "title": "Engineering", "description": "Code, tools, and experiment logs." },
+    "daily": { "title": "Daily Notes", "description": "Small updates and things I learn." }
+  }
+}

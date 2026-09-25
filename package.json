@@ -1,0 +1,14 @@
+{
+  "name": "luckysweetrain-homepage",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "node tools/blog.mjs build",
+    "post": "node tools/blog.mjs new",
+    "post:ready": "node tools/blog.mjs ready",
+    "test": "node tools/blog.test.mjs"
+  },
+  "devDependencies": {
+    "markdown-it": "14.1.0"
+  }
+}
